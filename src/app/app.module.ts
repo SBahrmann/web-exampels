@@ -7,6 +7,8 @@ import { AspectRatioComponent } from './css/aspect-ratio/aspect-ratio.component'
 import { AtContainerComponent } from './css/at-container/at-container.component';
 import { AtCustomMediaComponent } from './css/at-custom-media/at-custom-media.component';
 import { AtMediaComponent } from './css/at-media/at-media.component';
+import { AtMediaNewComponent } from './css/at-media-new/at-media-new.component';
+import { AtMediaQueryRangeComponent } from './css/at-media-query-range/at-media-query-range.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ApiWebAnimationComponent } from './js/api-web-animation/api-web-animation.component';
@@ -19,6 +21,7 @@ import { ApiWebAnimationComponent } from './js/api-web-animation/api-web-animati
     AtCustomMediaComponent,
     AtMediaComponent,
     AtMediaNewComponent,
+    AtMediaQueryRangeComponent,
   ],
   imports: [
     BrowserModule,
