@@ -10,12 +10,8 @@ import { ApiWebAnimationComponent } from './js/api-web-animation/api-web-animati
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AspectRatioComponent,
-    AllUnsetComponent,
     AccentColorComponent,
     AnchorComponent,
-    ApiWebAnimationComponent
   ],
   imports: [
     BrowserModule,
