@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AspectRatioComponent } from './css/aspect-ratio/aspect-ratio.component';
 import { AtContainerComponent } from './css/at-container/at-container.component';
 import { AtCustomMediaComponent } from './css/at-custom-media/at-custom-media.component';
+import { AtMediaComponent } from './css/at-media/at-media.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ApiWebAnimationComponent } from './js/api-web-animation/api-web-animation.component';
@@ -16,6 +17,7 @@ import { ApiWebAnimationComponent } from './js/api-web-animation/api-web-animati
     AnchorComponent,
     AtContainerComponent,
     AtCustomMediaComponent,
+    AtMediaComponent,
   ],
   imports: [
     BrowserModule,
